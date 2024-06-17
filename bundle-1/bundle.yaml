@@ -1,0 +1,7 @@
+id: "bundle-1"
+version: "1"
+apiVersion: "1"
+description: "CasC child bundle 1"
+parent: "bundle-global"
+items:
+  - "items.yaml"
