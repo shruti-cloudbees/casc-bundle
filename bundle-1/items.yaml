@@ -1,0 +1,16 @@
+removeStrategy:
+  items: "none"
+  rbac: "sync"
+
+items:
+  - kind: "folder"
+    name: "project-alpha"
+    displayName: "Project Alpha"
+    description: "Project Alpha is going to change the world!"
+    items:
+      - kind: "folder"
+        name: "project-alpha-tests"
+        displayName: "Project Alpha Tests"
+        items:
+          - kind: "folder"
+            name: "test-1"
