@@ -3,7 +3,14 @@ removeStrategy:
   rbac: "sync"
 
 items:
-  - kind: "folder"
-    name: "project-alpha"
-    displayName: "Project Alpha"
-    description: "Project Alpha is going to change the world!"
+  - kind: folder
+    name: Folder1
+    description: ""
+    displayName: Folder1
+  - kind: freeStyle
+    name: TestJob2
+    blockBuildWhenDownstreamBuilding: false
+    blockBuildWhenUpstreamBuilding: false
+    builders:
+      - shell:
+          command: echo "Hello World - 2 - Date June 17th"
